@@ -4,8 +4,10 @@ demo-app-1
 
 .. note::
 
-    Please note that several states include other states which are NOT part of this repository. I have left them
-    available as examples that you can easily fill in, and some which you can omit.
+    Please note that several states include other states which are NOT part of this repository.
+    I have left them available as examples that you can easily fill in, and some which you can omit.
+    In addition this repository is a companion to
+    `demo-app-2 <https://github.com/gravyboat/demo-app-2>`_.
 
 Setup with Vagrant
 ===================
