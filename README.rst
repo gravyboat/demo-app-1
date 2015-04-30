@@ -57,6 +57,10 @@ Connecting to the system
     vagrant ssh
     cd /home/vagrant/demo-app-1
 
+At this point Nginx should be up and running and available at http://192.168.44.3.
+If you have not brought up `demo-app-2 <https://github.com/gravyboat/demo-app-2>`_
+then you will receive a 502 Bad Gateway error.
+
 Available states
 ================
 
