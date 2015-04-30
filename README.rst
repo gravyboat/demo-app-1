@@ -28,6 +28,7 @@ Preparing the repo
 -------------------
 
 .. code-block::
+
     git clone https://github.com/gravyboat/demo-app-1.git
     cd demo-app-1
 
@@ -36,17 +37,23 @@ Bringing up the VM
 -------------------
 
 .. code-block::
+    
     vagrant up
 
 If this fails, you may need to visit the 
-[`config.vm.box_url`](http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box)
-specified in the `Vagrantfile` to download the image. Once downloaded, move the image to a directory
-like `~/VM_boxes/`, and add the image to vagrant: `vagrant box add <path-to-image> --name centos-min`.
+`config.vm.box_url <http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box>`_
+specified in the *Vagrantfile* to download the image. Once downloaded, move the image to a directory
+like *~/VM_boxes/*, and add the image to vagrant: 
+
+.. code-block::
+
+    vagrant box add <path-to-image> --name centos-min
 
 Connecting to the system
 -------------------------
 
 .. code-block::
+    
     vagrant ssh
     cd /home/vagrant/demo-app-1
 
